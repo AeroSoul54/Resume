@@ -22,6 +22,8 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+/* MAY REVISE WHOLE NAV SYSTEM*/
 li.nav{
  display: inline;
  position: 
@@ -58,6 +60,8 @@ li a.nav {
 li.nav {
   float: right;
 }
+
+/*revision stops here*/
 img { 
 	max-width: 100%;
 }
@@ -89,14 +93,14 @@ img.thumbnail{
 div.grid-container {
   display: grid;
   grid-column-gap: 5%;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 30% 30% 30%;
   background-color: #1e5220;
-  padding: 50px;
+  padding: 40px;
 }
 div.grid-item {
   background-color: #306e32;
   border: 10px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
   text-align: center;
 }
@@ -108,5 +112,17 @@ section p{
   font-size: 20px;
   text-align: center;
   padding: 10px;
-  
+  background-color: grey;
+}
+table, th, td{
+  border: 1px solid black;
+  background-color: white;
+  font-family: monospace, Courier New;
+}
+h2, h3, h4, h5{
+  font-size: 20px;
+  font-family: monospace, Courier New;
+}
+li.Ed{
+  font-family: monospace, Courier New;
 }
